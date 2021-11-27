@@ -63,3 +63,10 @@ h3{
   }
 }
 
+@media (min-width: 1500px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 1200px;
+  }
+}
+
