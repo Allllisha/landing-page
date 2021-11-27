@@ -1,0 +1,14 @@
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0 none;
+}
+
+li {
+padding:20px;
+font-size: 40px;
+}
+
+.fab{
+  color: lightseagreen;
+}

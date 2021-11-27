@@ -1,0 +1,10 @@
+.btn-apply-now{
+  color:black;
+  background-color:white;
+  border-color: black;
+  padding: 15px 25px;
+  border-radius: 50px;
+}
+.btn-apply-now:hover{
+  border-color:#A9DEF9;
+}

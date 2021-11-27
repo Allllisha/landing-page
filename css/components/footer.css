@@ -1,0 +1,10 @@
+.footer{
+  height:200px;
+  background-size: cover;
+  width: 100%;
+}
+
+.footer h3{
+  text-align: center;
+  margin: 0 auto;
+}
