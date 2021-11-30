@@ -1,7 +1,7 @@
 .card-category{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   color:white;
   background-size: cover;
   border-radius: 8px;

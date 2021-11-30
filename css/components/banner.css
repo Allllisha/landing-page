@@ -1,17 +1,16 @@
 .banner{
   color: white;
   padding:120px;
-  background-size: cover;
+  width:100%;
+  background-size: 100%;
   text-shadow: 0 0 8px rgb(0 0 0 /70%);
   height: 300px;
-  margin:0 auto;
+  margin-right: calc(50% - 50vw);
+	margin-left: calc(50% - 50vw);
 }
 
 .banner h1, .banner p {
   text-shadow: 0 0 8px rgb(0 0 0 /70%);
 }
 
-.background-position {
-  background-position: bottom 10px right 20px;
-}
 

@@ -35,7 +35,6 @@ p{
 
 h2{
   padding-top: 20px;
-  text-align: center;
 }
 
 h3{
@@ -43,9 +42,22 @@ h3{
 }
 
 
-@media (min-width: 1400px) { 
+@media (min-width: 576px) {
+   .container {
+    width: 300px;
+  }
+ }
+
+@media (min-width: 768px) { 
   .container {
-    width: 1200px;
+    width: 500px;
+  }
+}
+
+
+@media (min-width: 992px) { 
+  .container {
+    width: 700px;
   }
 }
 
@@ -55,31 +67,9 @@ h3{
   }
 }
 
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
+@media (min-width: 1400px) { 
   .container {
-    width: 700px;
-  }
-}
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-  }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
+    width: 1200px;
   }
 }
 
-@media ( min-width : 600px ){
-  .flexbox {
-    display: -webkit-flex;
-    display: flex;
-  }
-.main {
-  margin: 0 10px 0 0;
-}
-}
