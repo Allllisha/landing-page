@@ -1,8 +1,4 @@
 
-.card img {
-  width: 100px;
-}
-
 .card p {
   opacity: .5;
 }
@@ -11,8 +7,8 @@
   width: 200px;
   border-radius: 6px;
   box-shadow: 0 0 5px rgb(230,230,230);
-  text-align: center;
   padding: 20px;
+  text-align: center;
   border: 1px solid rgb(230,230,230);
 }
 
@@ -29,6 +25,7 @@
 
 .basic{
 border: solid lightpink;
+flex-shrink: 0;
 }
 .basic h1{
   margin-bottom: 0;
@@ -36,14 +33,16 @@ border: solid lightpink;
 
 .premium{
   border: solid rgb(222, 78, 78);
+  flex-shrink: 0;
 }
 
 .premium h1{
-  margin-bottom: 0;
+  margin-bottom: 0；
 }
 
 .unlimited{
   border: solid rgb(220, 14, 138);
+  flex-shrink: 0;
 }
 
 .unlimited h1{
