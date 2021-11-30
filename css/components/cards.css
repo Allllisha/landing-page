@@ -9,7 +9,7 @@
 
 .card {
   width: 200px;
-  border-radius: 3px;
+  border-radius: 6px;
   box-shadow: 0 0 5px rgb(230,230,230);
   text-align: center;
   padding: 20px;
@@ -23,3 +23,29 @@
   margin-bottom: 30px;
 }
 
+.border{
+  border-bottom : solid gray;
+}
+
+.basic{
+border: solid lightpink;
+}
+.basic h1{
+  margin-bottom: 0;
+}
+
+.premium{
+  border: solid rgb(222, 78, 78);
+}
+
+.premium h1{
+  margin-bottom: 0;
+}
+
+.unlimited{
+  border: solid rgb(220, 14, 138);
+}
+
+.unlimited h1{
+  margin-bottom: 0;
+}

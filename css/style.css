@@ -25,15 +25,22 @@ a {
 }
 
 .text-center {
+  margin-top: 40px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
-h1 {
+.top {
   text-shadow: 1px 2px 4px #262121;
 }
 
 .text-center{
   font-family: 'PT Serif', serif;
+}
+
+h6{
+  margin-top: 0;
+  color: darkgray;
 }
 
 @media (min-width: 400px) {
