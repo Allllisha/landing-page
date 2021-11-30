@@ -1,18 +1,13 @@
 /* Fonts */
+/* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
 
-/* Fontawesome */
-@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
-
-/* css */
-@import url("components/banner.css");
-@import url("components/container.css");
-@import url("components/cards.css");
-@import url("components/btn.css");
-@import url("components/footer.css");
-@import url("components/list-icon.css");
-@import url("components/card-japan.css");
-
+/* Custom designs */
+@import url(components/banner.css);
+@import url(components/buttons.css);
+@import url(components/cards.css);
+@import url(components/container.css);
+@import url(components/footer.css);
 
 /* Utilities */
 body {
@@ -28,17 +23,14 @@ a {
   text-decoration: none;
 }
 
-/* Custom design below! */
-p{
-  margin-bottom: 50px;
+.text-center {
+  text-align: center;
 }
 
-h2{
-  padding-top: 20px;
-}
-
-h3{
-  color: lightseagreen;
+@media (min-width: 400px) {
+  .container {
+   width: 200px;
+ }
 }
 
 

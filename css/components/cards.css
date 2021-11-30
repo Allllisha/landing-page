@@ -1,6 +1,6 @@
 
 .card img {
-  width: 150px;
+  width: 100px;
 }
 
 .card p {
@@ -19,21 +19,7 @@
 .cards {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 30px;
 }
 
-.card-1{
-  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
-}
-
-.card-2{
-  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
-}
-
-.card-3{
-  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
-}
-
-.card-4{
-  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
-}
