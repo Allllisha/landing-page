@@ -4,6 +4,7 @@
 }
 
 .card {
+  min-height:300px;
   width: 200px;
   border-radius: 6px;
   box-shadow: 0 0 5px rgb(230,230,230);
@@ -17,6 +18,7 @@
   justify-content: space-around;
   align-items: center;
   margin-bottom: 30px;
+  flex-wrap: wrap;
 }
 
 .border{
@@ -43,6 +45,7 @@ flex-shrink: 0;
 .unlimited{
   border: solid rgb(220, 14, 138);
   flex-shrink: 0;
+  margin: 30px;
 }
 
 .unlimited h1{
