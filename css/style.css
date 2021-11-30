@@ -1,10 +1,10 @@
 /* Fonts */
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
 /* Custom designs */
 @import url(components/banner.css);
-@import url(components/buttons.css);
+@import url(components/btn.css);
 @import url(components/cards.css);
 @import url(components/container.css);
 @import url(components/footer.css);
@@ -21,10 +21,19 @@ h1, h2, h3, h4 {
 
 a {
   text-decoration: none;
+  font-family: 'PT Serif', serif;
 }
 
 .text-center {
   text-align: center;
+}
+
+h1 {
+  text-shadow: 1px 2px 4px #262121;
+}
+
+.text-center{
+  font-family: 'PT Serif', serif;
 }
 
 @media (min-width: 400px) {
